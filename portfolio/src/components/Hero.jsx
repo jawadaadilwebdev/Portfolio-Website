@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail, ArrowRight, ChevronDown } from 'lucide-react';
 
+
 const floatingBadges = [
   { label: 'React', color: '#61DAFB', bg: 'rgba(97,218,251,0.1)', delay: '0s', pos: 'top-8 right-4' },
   { label: 'Node.js', color: '#68A063', bg: 'rgba(104,160,99,0.1)', delay: '1.5s', pos: 'top-32 -right-2' },
@@ -85,7 +86,7 @@ export default function Hero() {
               <button onClick={scrollToContact} className="btn-outline">
                 Contact Me
               </button>
-              <a href="#" download className="btn-outline text-text-muted hover:text-primary hover:border-primary">
+              <a href='/portfolio/src/resume/Resume Jawad.pdf' download className="btn-outline text-text-muted hover:text-primary hover:border-primary">
                 Resume ↓
               </a>
             </div>
@@ -137,7 +138,7 @@ export default function Hero() {
                   <span className="text-5xl">👨‍💻</span>
                 </div>
                 <div className="text-center">
-                  <div className="font-bold text-text-base text-lg">Your Name</div>
+                  <div className="font-bold text-text-base text-lg">Jawad Aadil</div>
                   <div className="text-text-muted text-sm">Full Stack Developer</div>
                   <div className="flex items-center justify-center gap-1.5 mt-2">
                     <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />

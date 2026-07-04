@@ -74,7 +74,7 @@ export default function Navbar() {
         {/* CTA */}
         <div className="hidden md:flex items-center gap-3">
           <a
-            href="#"
+            href="/portfolio/src/resume/Resume Jawad.pdf"
             className="btn-primary text-xs px-4 py-2.5"
             download
           >
@@ -110,14 +110,9 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <a
-            href="#"
-            className="btn-primary mt-2 justify-center"
-            download
-          >
-            <Download size={14} />
-            Download Resume
-          </a>
+          <a href='/portfolio/src/resume/Resume Jawad.pdf' download className="btn-primary mt-2 justify-center">
+                Resume ↓
+              </a>
         </div>
       </div>
     </nav>
